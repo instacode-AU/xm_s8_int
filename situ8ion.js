@@ -52,6 +52,7 @@ exports.createStatusPageIncident = function( incidentNumber, message) {
                 'x-cachet-token': +  constants["Status Page Token"]
                      }
             });
+            console.log = spRequest;
              // Define incident
             var incident = {};
             incident.name = incidentNumber;
